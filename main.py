@@ -3,12 +3,9 @@ from getpass import getpass
 import git
 import os
 
-#https://github.com/Hackathon2024-March/challenge-artifacts
-
-
 github_token = ""
 org_name = 'Hackathon2024-March'  # Replace with your GitHub username
-repo_name = 'fraud_breakers/'  # Replace with your repository name
+repo_name = 'Repo_Name'  # Replace with your repository name
 repo_url = f'https://github.com/{org_name}/{repo_name}.git'
 clone_path = "/content/Github/"+repo_name
 
